@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-02T22:57:31 IST" name="Default suite" finished-at="2022-10-02T22:57:31 IST" duration-ms="342">
+    <groups>
+    </groups>
+    <test started-at="2022-10-02T22:57:31 IST" name="Default test" finished-at="2022-10-02T22:57:31 IST" duration-ms="342">
+      <class name="DemoTest.AnnotationAttributes">
+        <test-method signature="test1()[pri:0, instance:DemoTest.AnnotationAttributes@43dac38f]" started-at="2022-10-02T22:57:31 IST" name="test1" description="This testcase1" finished-at="2022-10-02T22:57:31 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:DemoTest.AnnotationAttributes@43dac38f]" started-at="2022-10-02T22:57:31 IST" name="test2" finished-at="2022-10-02T22:57:31 IST" duration-ms="228" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method DemoTest.AnnotationAttributes.test2() didn't finish within the time-out 200]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method DemoTest.AnnotationAttributes.test2() didn't finish within the time-out 200
+at java.base@17.0.4.1/java.lang.Thread.sleep(Native Method)
+at app//DemoTest.AnnotationAttributes.test2(AnnotationAttributes.java:15)
+at java.base@17.0.4.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base@17.0.4.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base@17.0.4.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base@17.0.4.1/java.lang.reflect.Method.invoke(Method.java:568)
+at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:44)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:72)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:10)
+at java.base@17.0.4.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:DemoTest.AnnotationAttributes@43dac38f]" started-at="2022-10-02T22:57:31 IST" name="test3" description="This testcase3" finished-at="2022-10-02T22:57:31 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- DemoTest.AnnotationAttributes -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
